@@ -1,5 +1,5 @@
 # REMEMBER: print your output to the terminal using 'puts'
-
+i = 0 
 def loop_iterator(number_of_times)
   # Code your solution here using the "loop" keyword to puts out the below phrase
   # This and all the other methods take an argument of an integer 
@@ -10,7 +10,7 @@ def loop_iterator(number_of_times)
   #  phrase and break when the counter hits the appropriate number...
   phrase = "Welcome to Flatiron School's Web Development Course!"
   loop do 
-    i = 1 
+     
     puts phrase
     i += 1 
     break if i == number_of_times
